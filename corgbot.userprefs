@@ -1,0 +1,22 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/LevelData.txt">
+    <Files>
+      <File FileName="../Documents/Work/Environ/Assets/Scripts/clickNodeBtn.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/characterbutton.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/GridManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/LevelManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Resources/LevelData.txt" Line="21" Column="8" />
+      <File FileName="Assets/Standard Assets/Toon Shading/Sources/Shaders/Toony-BasicOutline.shader" Line="1" Column="1" />
+      <File FileName="Assets/Wireframe.shader" Line="1" Column="1" />
+      <File FileName="Assets/Resources/Materials/BariWireQuad.shader" Line="1" Column="1" />
+      <File FileName="Assets/RotateSphere.cs" Line="1" Column="1" />
+      <File FileName="Assets/TDTK_Free/Scripts/C#/UI.cs" Line="1" Column="1" />
+      <File FileName="Assets/Play.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

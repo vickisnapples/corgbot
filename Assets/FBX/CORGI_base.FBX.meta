@@ -1,0 +1,669 @@
+fileFormatVersion: 2
+guid: 8ff3a040df7e3a146a37d55c1ce80d8c
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Head
+    100004: Hips
+    100006: LeftArm
+    100008: LeftFoot
+    100010: LeftFootThumb1
+    100012: LeftForeArm
+    100014: Lefthand
+    100016: LeftLeg
+    100018: LeftShoulder
+    100020: LeftUpLeg
+    100022: Neck
+    100024: Object001
+    100026: Pelvis
+    100028: R ear
+    100030: RightArm
+    100032: RightFoot
+    100034: RightFootThumb1
+    100036: RightForeArm
+    100038: RightHand
+    100040: RightLeg
+    100042: RightShoulder
+    100044: RightUpLeg
+    100046: Spine
+    100048: Spine1
+    100050: Spine2
+    400000: //RootNode
+    400002: Head
+    400004: Hips
+    400006: LeftArm
+    400008: LeftFoot
+    400010: LeftFootThumb1
+    400012: LeftForeArm
+    400014: Lefthand
+    400016: LeftLeg
+    400018: LeftShoulder
+    400020: LeftUpLeg
+    400022: Neck
+    400024: Object001
+    400026: Pelvis
+    400028: R ear
+    400030: RightArm
+    400032: RightFoot
+    400034: RightFootThumb1
+    400036: RightForeArm
+    400038: RightHand
+    400040: RightLeg
+    400042: RightShoulder
+    400044: RightUpLeg
+    400046: Spine
+    400048: Spine1
+    400050: Spine2
+    2300000: Object001
+    3300000: Object001
+    4300000: Object001
+    7400000: 0_idle
+    7400002: 1_Walk
+    7400004: 2_Run
+    7400006: 3_Jump
+    7400008: 4_Attack
+    7400010: 5_Pain
+    7400012: 6_Dead
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Object001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: 0_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Pelvis
+        weight: 1
+      - path: Hips/Pelvis/Spine
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg/LeftFoot/LeftFootThumb1
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg/RightFoot/RightFootThumb1
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/Head/R ear
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm/LeftForeArm/Lefthand
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 1_Walk
+      takeName: Take 001
+      firstFrame: 70
+      lastFrame: 106
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Pelvis
+        weight: 1
+      - path: Hips/Pelvis/Spine
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg/LeftFoot/LeftFootThumb1
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg/RightFoot/RightFootThumb1
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/Head/R ear
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm/LeftForeArm/Lefthand
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 2_Run
+      takeName: Take 001
+      firstFrame: 120
+      lastFrame: 136
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Pelvis
+        weight: 1
+      - path: Hips/Pelvis/Spine
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg/LeftFoot/LeftFootThumb1
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg/RightFoot/RightFootThumb1
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/Head/R ear
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm/LeftForeArm/Lefthand
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 3_Jump
+      takeName: Take 001
+      firstFrame: 140
+      lastFrame: 194
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Pelvis
+        weight: 1
+      - path: Hips/Pelvis/Spine
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg/LeftFoot/LeftFootThumb1
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg/RightFoot/RightFootThumb1
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/Head/R ear
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm/LeftForeArm/Lefthand
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 4_Attack
+      takeName: Take 001
+      firstFrame: 200
+      lastFrame: 228
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Pelvis
+        weight: 1
+      - path: Hips/Pelvis/Spine
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg/LeftFoot/LeftFootThumb1
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg/RightFoot/RightFootThumb1
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/Head/R ear
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm/LeftForeArm/Lefthand
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 5_Pain
+      takeName: Take 001
+      firstFrame: 240
+      lastFrame: 276
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Pelvis
+        weight: 1
+      - path: Hips/Pelvis/Spine
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg/LeftFoot/LeftFootThumb1
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg/RightFoot/RightFootThumb1
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/Head/R ear
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm/LeftForeArm/Lefthand
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: 6_Dead
+      takeName: Take 001
+      firstFrame: 280
+      lastFrame: 340
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Pelvis
+        weight: 1
+      - path: Hips/Pelvis/Spine
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg/LeftFoot
+        weight: 1
+      - path: Hips/Pelvis/Spine/LeftUpLeg/LeftLeg/LeftFoot/LeftFootThumb1
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg/RightFoot
+        weight: 1
+      - path: Hips/Pelvis/Spine/RightUpLeg/RightLeg/RightFoot/RightFootThumb1
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/Head
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/Head/R ear
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm/LeftForeArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/LeftShoulder/LeftArm/LeftForeArm/Lefthand
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm/RightForeArm
+        weight: 1
+      - path: Hips/Pelvis/Spine/Spine1/Spine2/Neck/RightShoulder/RightArm/RightForeArm/RightHand
+        weight: 1
+      - path: Object001
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
