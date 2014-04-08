@@ -87,6 +87,54 @@ public class GridManager: MonoBehaviour
 							Player.transform.position = trans;
 							Player.transform.localEulerAngles = new Vector3(0,180,0);
 						}
+						// Put the player here
+                        // starting on a blue tile
+						if(feature == 'w')
+						{
+							Vector3 trans = calcWorldCoord(new Vector2(y, x), i);
+							trans[1] += .6f;
+							Properties properties = (Properties)Player.GetComponent("Properties");
+							properties.direction = 0;
+							Player.transform.position = trans;
+							Player.transform.localEulerAngles = new Vector3(0,0,0);
+							t = (GameObject)Instantiate(Special);
+						}
+						// Put the player here
+                        // starting on a blue tile
+						if(feature == 'a')
+						{
+							Vector3 trans = calcWorldCoord(new Vector2(y, x), i);
+							trans[1] += .6f;
+							Properties properties = (Properties)Player.GetComponent("Properties");
+							properties.direction = 3;
+							Player.transform.position = trans;
+							Player.transform.localEulerAngles = new Vector3(0,-90,0);
+							t = (GameObject)Instantiate(Special);
+						}
+						// Put the player here
+                        // starting on a blue tile
+						if(feature == 's')
+						{
+							Vector3 trans = calcWorldCoord(new Vector2(y, x), i);
+							trans[1] += .6f;
+							Properties properties = (Properties)Player.GetComponent("Properties");
+							properties.direction = 2;
+							Player.transform.position = trans;
+							Player.transform.localEulerAngles = new Vector3(0,180,0);
+							t = (GameObject)Instantiate(Special);
+						}
+						// Put the player here
+                        // starting on a blue tile
+						if(feature == 'd')
+						{
+							Vector3 trans = calcWorldCoord(new Vector2(y, x), i);
+							trans[1] += .6f;
+							Properties properties = (Properties)Player.GetComponent("Properties");
+							properties.direction = 1;
+							Player.transform.position = trans;
+							Player.transform.localEulerAngles = new Vector3(0,90,0);
+							t = (GameObject)Instantiate(Special);
+						}
 					}
 					else
 						t = (GameObject)Instantiate(getPrefab(depth));
