@@ -1,18 +1,18 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/LevelData.txt">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Resources/Shaders/UnlitTransparent.shader">
     <Files>
+      <File FileName="Assets/Script/Oscillate.cs" Line="5" Column="2" />
+      <File FileName="Assets/Script/GridManager.cs" Line="148" Column="48" />
       <File FileName="../Documents/Work/Environ/Assets/Scripts/clickNodeBtn.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/characterbutton.cs" Line="1" Column="1" />
-      <File FileName="Assets/Script/GridManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Properties.cs" Line="15" Column="26" />
+      <File FileName="Assets/Standard Assets/Toon Shading/Sources/Shaders/Toony-Basic.shader" Line="1" Column="1" />
+      <File FileName="Assets/Resources/Shaders/Unlit.shader" Line="14" Column="1" />
+      <File FileName="Assets/Script/RotateObject.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/RotateSphere.cs" Line="1" Column="1" />
       <File FileName="Assets/Script/LevelManager.cs" Line="1" Column="1" />
-      <File FileName="Assets/Resources/LevelData.txt" Line="21" Column="8" />
-      <File FileName="Assets/Standard Assets/Toon Shading/Sources/Shaders/Toony-BasicOutline.shader" Line="1" Column="1" />
-      <File FileName="Assets/Wireframe.shader" Line="1" Column="1" />
-      <File FileName="Assets/Resources/Materials/BariWireQuad.shader" Line="1" Column="1" />
-      <File FileName="Assets/RotateSphere.cs" Line="1" Column="1" />
-      <File FileName="Assets/TDTK_Free/Scripts/C#/UI.cs" Line="1" Column="1" />
-      <File FileName="Assets/Play.cs" Line="1" Column="1" />
+      <File FileName="Assets/Script/Program.cs" Line="1" Column="1" />
+      <File FileName="Assets/Resources/Shaders/UnlitTransparent.shader" Line="7" Column="57" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

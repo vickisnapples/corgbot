@@ -56,6 +56,7 @@
      <None Include="Assets\Resources\Materials\BariWireQuad.shader" />
      <None Include="Assets\TDTK_Free\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Resources\Materials\BariWireNoBackFaces.shader" />
+     <None Include="Assets\Resources\Shaders\Unlit.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Resources\LevelData.txt" />
      <None Include="Assets\TDTK_Free\Standard Assets\ShurikenParticle\Shaders\Particle Add.shader" />
@@ -63,6 +64,7 @@
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
      <None Include="Assets\Resources\Materials\BariWireTransparent.shader" />
+     <None Include="Assets\Resources\Shaders\UnlitTransparent.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

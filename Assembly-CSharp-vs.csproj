@@ -47,12 +47,17 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\MaterialGUI.cs" />
-     <Compile Include="Assets\Play.cs" />
-     <Compile Include="Assets\RotateObject.cs" />
-     <Compile Include="Assets\RotateSphere.cs" />
+     <Compile Include="Assets\Script\AnimateShadow.cs" />
+     <Compile Include="Assets\Script\AnimateSize.cs" />
+     <Compile Include="Assets\Script\GameManager.cs" />
      <Compile Include="Assets\Script\GridManager.cs" />
      <Compile Include="Assets\Script\LevelManager.cs" />
-     <Compile Include="Assets\Script\characterbutton.cs" />
+     <Compile Include="Assets\Script\Oscillate.cs" />
+     <Compile Include="Assets\Script\Play.cs" />
+     <Compile Include="Assets\Script\Program.cs" />
+     <Compile Include="Assets\Script\Properties.cs" />
+     <Compile Include="Assets\Script\RotateObject.cs" />
+     <Compile Include="Assets\Script\RotateSphere.cs" />
      <Compile Include="Assets\TDTK_Free\Scripts\C#\AudioManager.cs" />
      <Compile Include="Assets\TDTK_Free\Scripts\C#\BuildManager.cs" />
      <Compile Include="Assets\TDTK_Free\Scripts\C#\CameraControl.cs" />
@@ -84,6 +89,7 @@
      <None Include="Assets\Resources\Materials\BariWireQuad.shader" />
      <None Include="Assets\TDTK_Free\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Resources\Materials\BariWireNoBackFaces.shader" />
+     <None Include="Assets\Resources\Shaders\Unlit.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Resources\LevelData.txt" />
      <None Include="Assets\TDTK_Free\Standard Assets\ShurikenParticle\Shaders\Particle Add.shader" />
@@ -91,6 +97,7 @@
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
      <None Include="Assets\Resources\Materials\BariWireTransparent.shader" />
+     <None Include="Assets\Resources\Shaders\UnlitTransparent.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
