@@ -51,9 +51,11 @@
      <Compile Include="Assets\Script\AnimateSize.cs" />
      <Compile Include="Assets\Script\GameManager.cs" />
      <Compile Include="Assets\Script\GridManager.cs" />
+     <Compile Include="Assets\Script\Instruction.cs" />
      <Compile Include="Assets\Script\LevelManager.cs" />
      <Compile Include="Assets\Script\Oscillate.cs" />
      <Compile Include="Assets\Script\Play.cs" />
+     <Compile Include="Assets\Script\Pointer.cs" />
      <Compile Include="Assets\Script\Program.cs" />
      <Compile Include="Assets\Script\Properties.cs" />
      <Compile Include="Assets\Script\RotateObject.cs" />

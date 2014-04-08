@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject dog;
     // keep track of the program entered by the player
     // need to pass in a length
-    public Program program;
+//    public Program program;
 
 	// Level and stack data
 	Level level;
@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour {
 		dog = dog_wrapper.transform.Find ("Player").gameObject;
 //		level = LevelManager.levels[0];
         // need to pass in a program of some sort
-        program = new Program();
+//        program = new Program();
 	}
 
 	// Eventually, these will be the actual ui buttons.
@@ -70,7 +70,7 @@ public class GameManager : MonoBehaviour {
 		if(dog_wrapper.transform.position.Equals(target)) {
 			dog.animation.CrossFade("0_idle");
 			// Load next action from program
-            Instruction nextAction = program.getNext(bot);
+//            Instruction nextAction = program.getNext(bot);
 
 			// Make sure action is valid
 
