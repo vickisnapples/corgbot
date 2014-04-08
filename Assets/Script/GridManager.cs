@@ -39,16 +39,18 @@ public class GridManager: MonoBehaviour
 					GameObject t;
 					if(i == depth-1)
 					{
-						if(l.featureMap[7-x,y] == 'b')
+						char feature = l.featureMap[7-x,y];
+
+						if(feature == 'b' || feature == 'a' || feature == 'w'
+                            || feature == 's' || feature == 'd')
 							t = (GameObject)Instantiate(Special);
-						else if(l.featureMap[7-x,y] == 't')
+						else if(feature == 't')
 							t = (GameObject)Instantiate(Transporter);
 						else
 							t = (GameObject)Instantiate(getPrefab(depth));
 
 						// Put the player here
-						char feature = l.featureMap[7-x,y];
-						if(feature == '>')
+						if(feature == '>' || feature == 'd')
 						{
 							Vector3 trans = calcWorldCoord(new Vector2(y, x), i);
 							trans[1] += .6f;
@@ -58,7 +60,7 @@ public class GridManager: MonoBehaviour
 							Player.transform.localEulerAngles = new Vector3(0,90,0);
 						}
 						// Put the player here
-						if(feature == '<')
+						if(feature == '<' || feature == 'a')
 						{
 							Vector3 trans = calcWorldCoord(new Vector2(y, x), i);
 							trans[1] += .6f;
@@ -68,7 +70,7 @@ public class GridManager: MonoBehaviour
 							Player.transform.localEulerAngles = new Vector3(0,-90,0);
 						}
 						// Put the player here
-						if(feature == '^')
+						if(feature == '^' || feature == 'w')
 						{
 							Vector3 trans = calcWorldCoord(new Vector2(y, x), i);
 							trans[1] += .6f;
@@ -78,7 +80,7 @@ public class GridManager: MonoBehaviour
 							Player.transform.localEulerAngles = new Vector3(0,0,0);
 						}
 						// Put the player here
-						if(feature == 'v')
+						if(feature == 'v' || feature == 's')
 						{
 							Vector3 trans = calcWorldCoord(new Vector2(y, x), i);
 							trans[1] += .6f;
@@ -86,54 +88,6 @@ public class GridManager: MonoBehaviour
 							properties.direction = 2;
 							Player.transform.position = trans;
 							Player.transform.localEulerAngles = new Vector3(0,180,0);
-						}
-						// Put the player here
-                        // starting on a blue tile
-						if(feature == 'w')
-						{
-							Vector3 trans = calcWorldCoord(new Vector2(y, x), i);
-							trans[1] += .6f;
-							Properties properties = (Properties)Player.GetComponent("Properties");
-							properties.direction = 0;
-							Player.transform.position = trans;
-							Player.transform.localEulerAngles = new Vector3(0,0,0);
-							t = (GameObject)Instantiate(Special);
-						}
-						// Put the player here
-                        // starting on a blue tile
-						if(feature == 'a')
-						{
-							Vector3 trans = calcWorldCoord(new Vector2(y, x), i);
-							trans[1] += .6f;
-							Properties properties = (Properties)Player.GetComponent("Properties");
-							properties.direction = 3;
-							Player.transform.position = trans;
-							Player.transform.localEulerAngles = new Vector3(0,-90,0);
-							t = (GameObject)Instantiate(Special);
-						}
-						// Put the player here
-                        // starting on a blue tile
-						if(feature == 's')
-						{
-							Vector3 trans = calcWorldCoord(new Vector2(y, x), i);
-							trans[1] += .6f;
-							Properties properties = (Properties)Player.GetComponent("Properties");
-							properties.direction = 2;
-							Player.transform.position = trans;
-							Player.transform.localEulerAngles = new Vector3(0,180,0);
-							t = (GameObject)Instantiate(Special);
-						}
-						// Put the player here
-                        // starting on a blue tile
-						if(feature == 'd')
-						{
-							Vector3 trans = calcWorldCoord(new Vector2(y, x), i);
-							trans[1] += .6f;
-							Properties properties = (Properties)Player.GetComponent("Properties");
-							properties.direction = 1;
-							Player.transform.position = trans;
-							Player.transform.localEulerAngles = new Vector3(0,90,0);
-							t = (GameObject)Instantiate(Special);
 						}
 					}
 					else
